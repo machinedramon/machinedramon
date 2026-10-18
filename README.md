@@ -3,6 +3,8 @@ $ whoami
 machinedramon
 
 $ cat /etc/motd
+  hello, friend.
+
   systems · gamedev · web3
   rust · typescript · godot · solana
 
@@ -12,6 +14,5 @@ $ ls -1 ~/public
   anime-tracker                 svelte
 
 $ cat ~/.plan
-  > contributing to rust-lang/rust
-  > без лишних слов._
+  > contributing to rust-lang/rust_
 ```
