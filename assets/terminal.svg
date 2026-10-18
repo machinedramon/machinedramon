@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="532" viewBox="0 0 960 532" role="img" aria-label="machinedramon — systems · gamedev · web3 — rust, c++, c#, typescript, dart, python, godot, solana">
+<title>machinedramon — systems · gamedev · web3 — rust, c++, c#, typescript, dart, python, godot, solana</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-size:15px}
+.k{opacity:0;animation:on .01s linear forwards}
+.o{opacity:0;animation:rise .35s ease-out forwards}
+.cur{opacity:0;animation:blink 1.06s steps(1) infinite}
+.fx{opacity:0;animation:g1 5.5s steps(1) infinite}
+.g2{animation-name:g2}
+.band{animation:scan 7s linear infinite}
+@keyframes on{to{opacity:1}}
+@keyframes rise{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+@keyframes blink{0%{opacity:1}50%{opacity:0}}
+@keyframes scan{from{transform:translateY(0)}to{transform:translateY(692px)}}
+@keyframes g1{0%{opacity:0}86%{opacity:.85;transform:translate(-2px,0)}87%{opacity:.7;transform:translate(2px,-1px)}88%{opacity:.85;transform:translate(-1px,1px)}89%{opacity:0;transform:none}}
+@keyframes g2{0%{opacity:0}86%{opacity:.85;transform:translate(2px,0)}87%{opacity:.7;transform:translate(-2px,1px)}88%{opacity:.85;transform:translate(1px,-1px)}89%{opacity:0;transform:none}}
+@media (prefers-reduced-motion:reduce){
+  .k,.o,.cur{animation:none;opacity:1}
+  .fx,.band{display:none}
+}
+</style>
+<defs>
+<clipPath id="win"><rect width="960" height="532" rx="10"/></clipPath>
+<pattern id="lines" width="4" height="3" patternUnits="userSpaceOnUse">
+  <rect width="4" height="1" fill="#000" opacity=".35"/>
+</pattern>
+<linearGradient id="bandg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+  <stop offset=".5" stop-color="#fff" stop-opacity=".035"/>
+  <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="vig" cx=".5" cy=".45" r=".75">
+  <stop offset=".6" stop-color="#000" stop-opacity="0"/>
+  <stop offset="1" stop-color="#000" stop-opacity=".45"/>
+</radialGradient>
+<filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+  <feGaussianBlur stdDeviation="2.2" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+<g clip-path="url(#win)">
+<rect width="960" height="532" fill="#0a0c0f"/>
+<rect x="0" y="0" width="960" height="36" fill="#11141a"/><line x1="0" y1="36" x2="960" y2="36" stroke="#1c2129"/><circle cx="18" cy="18.0" r="5.5" fill="#3a3f47"/><circle cx="36" cy="18.0" r="5.5" fill="#3a3f47"/><circle cx="54" cy="18.0" r="5.5" fill="#3a3f47"/><text x="480.0" y="23.0" text-anchor="middle" fill="#6e7681">machinedramon@127.0.0.1: ~</text>
+<g filter="url(#glow)">
+<text x="30" y="70" xml:space="preserve" fill="#c9d1d9"><tspan class="k" fill="#e5484d" style="animation-delay:0.50s">$ </tspan><tspan class="k" style="animation-delay:0.75s">w</tspan><tspan class="k" style="animation-delay:0.80s">h</tspan><tspan class="k" style="animation-delay:0.84s">o</tspan><tspan class="k" style="animation-delay:0.89s">a</tspan><tspan class="k" style="animation-delay:0.93s">m</tspan><tspan class="k" style="animation-delay:0.98s">i</tspan></text>
+<g class="o" style="animation-delay:1.32s"><text x="30" y="93" xml:space="preserve" fill="#f0f6fc">machinedramon</text></g>
+<g class="o" style="animation-delay:1.39s"><text x="30" y="116" xml:space="preserve" fill="#6e7681"># Diego Augusto Santos Ferreira</text></g>
+<text x="30" y="150.5" xml:space="preserve" fill="#c9d1d9"><tspan class="k" fill="#e5484d" style="animation-delay:1.66s">$ </tspan><tspan class="k" style="animation-delay:1.91s">c</tspan><tspan class="k" style="animation-delay:1.96s">a</tspan><tspan class="k" style="animation-delay:2.00s">t</tspan><tspan class="k" style="animation-delay:2.05s"> </tspan><tspan class="k" style="animation-delay:2.09s">/</tspan><tspan class="k" style="animation-delay:2.14s">e</tspan><tspan class="k" style="animation-delay:2.18s">t</tspan><tspan class="k" style="animation-delay:2.23s">c</tspan><tspan class="k" style="animation-delay:2.27s">/</tspan><tspan class="k" style="animation-delay:2.31s">m</tspan><tspan class="k" style="animation-delay:2.36s">o</tspan><tspan class="k" style="animation-delay:2.40s">t</tspan><tspan class="k" style="animation-delay:2.45s">d</tspan></text>
+<g class="o" style="animation-delay:2.79s"><text x="30" y="173.5" xml:space="preserve" fill="#f0f6fc">hello, friend.</text><text class="fx g1" x="30" y="173.5" fill="#e5484d" style="animation-delay:3.39s">hello, friend.</text><text class="fx g2" x="30" y="173.5" fill="#3dd6d0" style="animation-delay:3.39s">hello, friend.</text></g>
+<g class="o" style="animation-delay:2.86s"><text x="30" y="208.0" xml:space="preserve" fill="#c9d1d9">systems · gamedev · web3</text></g>
+<text x="30" y="242.5" xml:space="preserve" fill="#c9d1d9"><tspan class="k" fill="#e5484d" style="animation-delay:3.13s">$ </tspan><tspan class="k" style="animation-delay:3.38s">l</tspan><tspan class="k" style="animation-delay:3.43s">s</tspan><tspan class="k" style="animation-delay:3.47s"> </tspan><tspan class="k" style="animation-delay:3.52s">~</tspan><tspan class="k" style="animation-delay:3.56s">/</tspan><tspan class="k" style="animation-delay:3.61s">s</tspan><tspan class="k" style="animation-delay:3.65s">t</tspan><tspan class="k" style="animation-delay:3.70s">a</tspan><tspan class="k" style="animation-delay:3.74s">c</tspan><tspan class="k" style="animation-delay:3.79s">k</tspan></text>
+<g class="o" style="animation-delay:4.13s"><text x="30" y="265.5" xml:space="preserve" fill="#c9d1d9">rust  c++  c#  typescript  dart  python  godot  solana</text></g>
+<text x="30" y="300.0" xml:space="preserve" fill="#c9d1d9"><tspan class="k" fill="#e5484d" style="animation-delay:4.40s">$ </tspan><tspan class="k" style="animation-delay:4.65s">l</tspan><tspan class="k" style="animation-delay:4.70s">s</tspan><tspan class="k" style="animation-delay:4.74s"> </tspan><tspan class="k" style="animation-delay:4.79s">-</tspan><tspan class="k" style="animation-delay:4.83s">1</tspan><tspan class="k" style="animation-delay:4.88s"> </tspan><tspan class="k" style="animation-delay:4.92s">~</tspan><tspan class="k" style="animation-delay:4.97s">/</tspan><tspan class="k" style="animation-delay:5.01s">p</tspan><tspan class="k" style="animation-delay:5.06s">u</tspan><tspan class="k" style="animation-delay:5.10s">b</tspan><tspan class="k" style="animation-delay:5.15s">l</tspan><tspan class="k" style="animation-delay:5.19s">i</tspan><tspan class="k" style="animation-delay:5.24s">c</tspan></text>
+<g class="o" style="animation-delay:5.58s"><text x="30" y="323.0" xml:space="preserve" fill="#f0f6fc">template-phaser-bun-rsbuild</text><text x="300.0" y="323.0" xml:space="preserve" fill="#6e7681">phaser 3 · bun · rsbuild</text></g>
+<g class="o" style="animation-delay:5.65s"><text x="30" y="346.0" xml:space="preserve" fill="#f0f6fc">solany</text><text x="300.0" y="346.0" xml:space="preserve" fill="#6e7681">rust · solana</text></g>
+<g class="o" style="animation-delay:5.72s"><text x="30" y="369.0" xml:space="preserve" fill="#f0f6fc">anime-tracker</text><text x="300.0" y="369.0" xml:space="preserve" fill="#6e7681">svelte</text></g>
+<text x="30" y="403.5" xml:space="preserve" fill="#c9d1d9"><tspan class="k" fill="#e5484d" style="animation-delay:5.99s">$ </tspan><tspan class="k" style="animation-delay:6.24s">c</tspan><tspan class="k" style="animation-delay:6.29s">a</tspan><tspan class="k" style="animation-delay:6.33s">t</tspan><tspan class="k" style="animation-delay:6.38s"> </tspan><tspan class="k" style="animation-delay:6.42s">~</tspan><tspan class="k" style="animation-delay:6.47s">/</tspan><tspan class="k" style="animation-delay:6.51s">.</tspan><tspan class="k" style="animation-delay:6.56s">p</tspan><tspan class="k" style="animation-delay:6.60s">l</tspan><tspan class="k" style="animation-delay:6.65s">a</tspan><tspan class="k" style="animation-delay:6.69s">n</tspan></text>
+<g class="o" style="animation-delay:7.04s"><text x="30" y="426.5" xml:space="preserve" fill="#c9d1d9">&gt; contributing to rust-lang/rust</text></g>
+<text class="k" x="30" y="461.0" fill="#e5484d" style="animation-delay:7.51s">$</text><rect class="cur" x="48.0" y="448.0" width="9.0" height="17" fill="#c9d1d9" style="animation-delay:7.51s"/>
+</g>
+<rect x="0" y="502" width="960" height="30" fill="#11141a"/><line x1="0" y1="502" x2="960" y2="502" stroke="#1c2129"/><rect x="0" y="502" width="74" height="30" fill="#e5484d"/><text x="10" y="522" fill="#0a0c0f" font-weight="700">[0] sh</text><text x="948" y="522" fill="#6e7681" text-anchor="end">127.0.0.1</text>
+<rect width="960" height="532" fill="url(#lines)" opacity=".5"/>
+<rect class="band" x="0" y="-160" width="960" height="160" fill="url(#bandg)"/>
+<rect width="960" height="532" fill="url(#vig)"/>
+</g>
+<rect x=".5" y=".5" width="959" height="531" rx="10" fill="none" stroke="#1c2129"/>
+</svg>
