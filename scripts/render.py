@@ -13,11 +13,8 @@ USER = "machinedramon"
 FULL_NAME = "Diego Augusto Santos Ferreira"
 AREAS = "systems · gamedev · web3"
 STACK = ["rust", "c++", "c#", "typescript", "dart", "python", "godot", "solana"]
-PUBLIC = [
-    ("template-phaser-bun-rsbuild", "phaser 3 · bun · rsbuild"),
-    ("solany", "rust · solana"),
-    ("anime-tracker", "svelte"),
-]
+# Showcased repos; empty hides the `ls ~/public` block.
+PUBLIC = []
 PLAN = ["> contributing to rust-lang/rust"]
 
 OUT = Path(__file__).resolve().parent.parent / "assets"
@@ -119,15 +116,16 @@ def render(mobile):
         T.row([(0, "  ".join(STACK), C["txt"])])
     T.block()
 
-    T.cmd("ls -1 ~/public")
-    name_w = max(len(n) for n, _ in PUBLIC)
-    for name, desc in PUBLIC:
-        if mobile:
-            T.row([(0, name, C["hi"])])
-            T.row([(cw * 2, desc, C["dim"])])
-        else:
-            T.row([(0, name, C["hi"]), (cw * (name_w + 3), desc, C["dim"])])
-    T.block()
+    if PUBLIC:
+        T.cmd("ls -1 ~/public")
+        name_w = max(len(n) for n, _ in PUBLIC)
+        for name, desc in PUBLIC:
+            if mobile:
+                T.row([(0, name, C["hi"])])
+                T.row([(cw * 2, desc, C["dim"])])
+            else:
+                T.row([(0, name, C["hi"]), (cw * (name_w + 3), desc, C["dim"])])
+        T.block()
 
     T.cmd("cat ~/.plan")
     for line in PLAN:
