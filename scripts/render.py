@@ -169,16 +169,14 @@ text{{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberati
 .cur{{opacity:0;animation:blink 1.06s steps(1) infinite}}
 .fx{{opacity:0;animation:g1 5.5s steps(1) infinite}}
 .g2{{animation-name:g2}}
-.band{{animation:scan 7s linear infinite}}
 @keyframes on{{to{{opacity:1}}}}
 @keyframes rise{{from{{opacity:0;transform:translateY(4px)}}to{{opacity:1;transform:none}}}}
 @keyframes blink{{0%{{opacity:1}}50%{{opacity:0}}}}
-@keyframes scan{{from{{transform:translateY(0)}}to{{transform:translateY({H + 160}px)}}}}
 @keyframes g1{{0%{{opacity:0}}86%{{opacity:.85;transform:translate(-2px,0)}}87%{{opacity:.7;transform:translate(2px,-1px)}}88%{{opacity:.85;transform:translate(-1px,1px)}}89%{{opacity:0;transform:none}}}}
 @keyframes g2{{0%{{opacity:0}}86%{{opacity:.85;transform:translate(2px,0)}}87%{{opacity:.7;transform:translate(-2px,1px)}}88%{{opacity:.85;transform:translate(1px,-1px)}}89%{{opacity:0;transform:none}}}}
 @media (prefers-reduced-motion:reduce){{
   .k,.o,.cur{{animation:none;opacity:1}}
-  .fx,.band{{display:none}}
+  .fx{{display:none}}
 }}
 """
 
@@ -187,11 +185,6 @@ text{{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberati
 <pattern id="lines" width="4" height="3" patternUnits="userSpaceOnUse">
   <rect width="4" height="1" fill="#000" opacity=".35"/>
 </pattern>
-<linearGradient id="bandg" x1="0" y1="0" x2="0" y2="1">
-  <stop offset="0" stop-color="#fff" stop-opacity="0"/>
-  <stop offset=".5" stop-color="#fff" stop-opacity=".035"/>
-  <stop offset="1" stop-color="#fff" stop-opacity="0"/>
-</linearGradient>
 <radialGradient id="vig" cx=".5" cy=".45" r=".75">
   <stop offset=".6" stop-color="#000" stop-opacity="0"/>
   <stop offset="1" stop-color="#000" stop-opacity=".45"/>
@@ -202,9 +195,6 @@ text{{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberati
 </filter>
 """
 
-    band = (
-        f'<rect class="band" x="0" y="-160" width="{W}" height="160" fill="url(#bandg)"/>'
-    )
 
     alt = f"{USER} — {AREAS} — {', '.join(STACK)}"
     newline = "\n"
@@ -220,7 +210,6 @@ text{{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberati
 </g>
 {status}
 <rect width="{W}" height="{H}" fill="url(#lines)" opacity=".5"/>
-{band}
 <rect width="{W}" height="{H}" fill="url(#vig)"/>
 </g>
 <rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="10" fill="none" stroke="{C["line"]}"/>
