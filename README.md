@@ -6,7 +6,8 @@ $ cat /etc/motd
   hello, friend.
 
   systems · gamedev · web3
-  rust · typescript · godot · solana
+  rust · c++ · c# · typescript · dart · python
+  godot · solana
 
 $ ls -1 ~/public
   template-phaser-bun-rsbuild   phaser 3 · bun · rsbuild
